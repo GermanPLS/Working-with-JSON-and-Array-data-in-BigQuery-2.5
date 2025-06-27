@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Working-with-JSON-and-Array-data-in-BigQuery-2.5---GCP
-=======
+
 #  Working with JSON and Array data in BigQuery 2.5  ( Trabajar con datos JSON y de Array en BigQuery ) - GCP
 
 
@@ -803,5 +801,11 @@ WHERE split_time = 23.2;
 ```
 
 ![alt text](imagenes/image-43.png)
->>>>>>> 82fe63b (Subo al lab , carpeta con imágenes y archivo README)
-"# GermanPLS-Working-with-JSON-and-Array-data-in-BigQuery-2.5---GCP" 
+
+#
+Autor
+
+Este repositorio fue creado y documentado por **German Leventan Sago**  
+📅 Fecha: Junio 2025  
+🔗 Perfil de GitHub: [github.com/germanleventan](https://github.com/GermanPLS)
+
