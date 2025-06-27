@@ -804,3 +804,4 @@ WHERE split_time = 23.2;
 
 ![alt text](imagenes/image-43.png)
 >>>>>>> 82fe63b (Subo al lab , carpeta con imágenes y archivo README)
+"# GermanPLS-Working-with-JSON-and-Array-data-in-BigQuery-2.5---GCP" 
