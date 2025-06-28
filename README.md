@@ -43,7 +43,7 @@ En este laboratorio aprenderá lo siguiente:
 
 - Haga clic **en Listo** .
 
-
+#
 ## Tarea 1 - Crear un conjunto de datos para almacenar nuestras tablas.
 
 1) haga clic en el ícono **Ver acciones** junto a su **ID de proyecto** y luego seleccione **Crear conjunto de datos (Datasets)** .
@@ -221,13 +221,7 @@ Después de ver los resultados, haga clic en la pestaña JSON para ver la estruc
 
 
 
-#### Resumen
 
-- BigQuery admite arreglos de forma nativa
-
-- Los valores dentro de un arreglo deben compartir el mismo tipo de dato
-
-- En BigQuery, los arreglos se llaman campos REPEATED.
 
 ### Cómo cargar archivos JSON semiestructurados a BigQuery
 
@@ -247,6 +241,19 @@ Agrega los siguientes detalles a la tabla:
 - Asigna a la nueva tabla el nombre **"fruit_details"**.
 
 - Haz clic en **Crear tabla**.
+
+
+En el esquema, observa que `fruit_array` está marcado como REPEATED, lo cual indica que es un array.
+
+#### Resumen
+
+- BigQuery admite arreglos de forma nativa
+
+- Los valores dentro de un arreglo deben compartir el mismo tipo de dato
+
+- En BigQuery, los arreglos se llaman campos REPEATED.
+
+
 #
 ## Tarea 3 -  Crear tus propios arreglos con `ARRAY_AGG()`  
 
