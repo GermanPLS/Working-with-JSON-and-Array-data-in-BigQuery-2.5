@@ -229,6 +229,24 @@ Después de ver los resultados, haga clic en la pestaña JSON para ver la estruc
 
 - En BigQuery, los arreglos se llaman campos REPEATED.
 
+### Cómo cargar archivos JSON semiestructurados a BigQuery
+
+¿Te preguntas cómo puedes transferir un archivo JSON a BigQuery?
+
+- Crea una tabla nueva en el conjunto de datos `fruit_store`.
+- Para crear una tabla, haz clic en el ícono **Ver acciones** junto al conjunto de datos fruit_store y selecciona **Crear tabla**.
+
+![alt text](imagenes/66.png)
+
+Agrega los siguientes detalles a la tabla:
+
+- **Fuente:** Selecciona **Google Cloud Storage** en el menú desplegable **Crear tabla desde**.
+- **Selecciona el archivo del bucket de GCS** (escribe o pega lo siguiente): cloud-training/data-insights-course/labs/optimizing-for-performance/shopping_cart.json
+- **Formato de archivo**: JSONL (JSON delimitado por saltos de línea) {This will be auto-populated}
+- **Esquema**: Verifica la detección automática (esquema y parámetros de entrada).
+- Asigna a la nueva tabla el nombre **"fruit_details"**.
+
+- Haz clic en **Crear tabla**.
 #
 ## Tarea 3 -  Crear tus propios arreglos con `ARRAY_AGG()`  
 
